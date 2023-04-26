@@ -1,0 +1,3 @@
+a = int(input())
+a = str(hex(a))
+print(a[2:])
