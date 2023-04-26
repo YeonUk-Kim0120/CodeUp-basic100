@@ -1,0 +1,4 @@
+a = int(input())
+a = str(hex(a))
+a = a[2:]
+print(a.upper())
