@@ -1,0 +1,7 @@
+n = int(input())
+called_nums = list(map(int,input().split()))
+min = called_nums[0]
+for i in called_nums:
+  if i < min:
+    min = i
+print(min)
