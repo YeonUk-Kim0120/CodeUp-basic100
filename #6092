@@ -1,0 +1,9 @@
+n = int(input())
+called_nums = list(map(int,input().split()))
+cnt = [0]*23
+
+for i in called_nums:
+  cnt[i-1] += 1
+
+for i in cnt:
+  print(i, end = ' ')
