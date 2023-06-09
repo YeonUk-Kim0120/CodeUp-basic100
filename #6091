@@ -1,0 +1,11 @@
+f1, f2, f3 = map(int,input().split())
+day = 1
+big = max(f1, f2, f3)
+while True:
+  ans = big*day
+  if ans%f1 == 0 and ans%f2 == 0 and ans%f3 == 0:
+    break
+  else:
+    day += 1
+  
+print(ans)
