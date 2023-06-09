@@ -1,0 +1,6 @@
+a = input()
+a = ord(a)
+start = 97
+while start <= a:
+  print(chr(start), end = ' ')
+  start += 1
