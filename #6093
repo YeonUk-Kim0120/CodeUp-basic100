@@ -1,0 +1,5 @@
+n = int(input())
+called_nums = list(map(int,input().split()))
+
+for i in range(n-1, -1, -1):
+  print(called_nums[i], end = ' ')
