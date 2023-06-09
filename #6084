@@ -1,8 +1,0 @@
-r, g, b = map(int,input().split())
-n = 0
-for i in range(r):  
-  for j in range(g):    
-    for o in range(b):
-      print(i, j, o)
-      n += 1
-print(n)
